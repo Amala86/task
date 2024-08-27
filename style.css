@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+.task-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#taskInput {
+    width: calc(100% - 120px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+#addTaskBtn {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+#addTaskBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #e0f7fa; /* Light blue background for task items */
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Add space between tasks */
+}
+.task-item span {
+    flex: 1;
+    font-size: 16px;
+}
+.delete-btn {
+    background-color: #ff5722; /* Orange color */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.delete-btn:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
